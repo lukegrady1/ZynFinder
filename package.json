@@ -1,0 +1,42 @@
+{
+  "name": "zynfinder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "@types/google.maps": "^3.58.1",
+    "firebase": "^11.5.0",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.15",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "latest"
+  }
+}
